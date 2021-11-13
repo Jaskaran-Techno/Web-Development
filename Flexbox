@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            font-family:Arial, sans-serif;
+            font-size: 20px;
+            padding: 0 20px 30px 0;
+            line-height: 1.4;
+        }
+        .flex-container{
+            display: block;
+            background-color: lightcoral;
+        }
+        .flex-item {
+            align-content: center;
+            width: 75px;
+            height: 75px;
+            background-color: skyblue;
+            border: 2px solid darkblue;
+            text-align: center;
+            font-size: 2em;
+            color: ivory;
+            font-weight: bold;
+            line-height: 1.4;
+            flex-direction: row-reverse;
+        }
+        #flex-item-1{
+            background-color: brown;
+            align-content: center;       
+        }
+        #flex-item-2{
+            background-color: aquamarine;
+        }
+        #flex-item-3{
+            background-color: chartreuse;
+        }
+        #flex-item-4{
+            background-color: cornflowerblue;
+        }
+        #flex-item-5{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1</div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+                                                                                                                                              
+    </div>
+</body>
+</html>
