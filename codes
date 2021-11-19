@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scope and conditionals</title>
+</head>
+<body>
+   <script>
+    var string1 = "This is a string1";
+    var string1 = "This is a string2";
+    console.log(string1);
+    let a = "u";
+    {
+     let a = "u6";
+     console.log(a);
+    }
+    console.log(a);
+
+    const b = "This cannot be changed";
+    console.log(b);
+   </script>
+</body>
+</html>
+
+<!DOCTYPE <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Conditional statements</title>
+</head>
+<body>
+    <script>
+        let age = 34;
+        if(age>18){
+            console.log("You can drive");
+        }
+        else if(age==2){
+            console.log("Age is 2");
+
+        }
+        else{
+            console.log("You cannot drive");
+        }
+
+    </script>
+</body>
+</html>
