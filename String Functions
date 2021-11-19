@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Javascript String Functions</title>
+</head>
+<style>
+
+</style>
+<body>
+<script>
+    var str = "This is a string";
+    console.log(str);
+
+    // first occurence of a sub-string
+    var position = str.indexOf('is');
+    console.log(position);
+
+    // last occurence of a sub-string
+    var position = str.lastIndexOf('is');
+    console.log(position);
+
+    //Substring from a string
+    var substr = str.slice(1,6);
+    console.log(substr);
+
+</script>
+</body>
+</html>
