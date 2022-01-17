@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrays & objects</title>
+</head>
+<body>
+  <div class = "container">simple si html</div>
+   <script>
+       let myVar1 = 34;
+       let myVar2 = "string";
+       let myVar3 = true;
+
+       let employee = {
+           name: "Harry",
+           salary: 10,
+           channel: "CodeWithHarry",
+       }
+       console.log(employee);
+   </script>
+
+   <script>
+       let names = [1,2,3,4, "Harry", undefined];
+       console.log(names);
+       console.log(names.length);
+       names.push("this is pushed")
+       console.log(names);
+   </script>
+
+<script>
+    let alpha = new Array(41,2,4,"Harry", undefined);
+    alpha = alpha.sort();
+    alpha.push("this is pushed")
+    console.log(alpha);
+</script>
+
+</body>
+</html>
