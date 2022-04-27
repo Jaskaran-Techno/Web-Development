@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS grids</title>
+</head>
+<body>
+<style>
+    .wrapper > div{
+        background: #eee;
+        padding: 1em;
+    }
+    <!--for having different sheaths of grids-->
+        .wrapper > div:nth-child(odd) {
+        background: #ddd;
+        }
+</style>
+    <div class="wrapper">
+       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid architecto deleniti dolore excepturi
+      exercitationem iste nam perspiciatis repudiandae temporibus.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi repellat! Architecto assumenda delectus
+            deleniti et facere, harum nihil nulla odio, perspiciatis quisquam repellat tempore. Architecto corporis eveniet
+            rerum sequi?</div>
+    </div>
+</body>
+</html>
