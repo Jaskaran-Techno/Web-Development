@@ -1,9 +1,0 @@
-
-export {};
-
-let arrFrameworks: string [] = ['JavaScript','jQuery','Angular','React'];
-console.log('arrFrameworks:',arrFrameworks);
-
-
-let arrLanguages: Array<string> = ['C','C++','Java','Ruby','Phthon'];
-console.log('arrLanguages',arrLanguages);

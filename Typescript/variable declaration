@@ -1,9 +1,0 @@
-export {};
-
-var name: string = 'Dinanath';
-var age: number = 35;
-var isDeveloper: boolean = true;
-console.log('My details are : ' + name + ' ' + age + ' ' + isDeveloper);
-
-var name = 'Dino';
-console.log('My name is : ' + name);
