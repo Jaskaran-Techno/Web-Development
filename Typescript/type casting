@@ -1,0 +1,11 @@
+export {};
+
+let id = 100;
+let employeeID = &lt;number&gt; id;
+
+let name = 'Dinanath';
+let fName = 'Dinanath';
+console.log('fName data type:',typeof(fName));
+
+fName = fName as string;
+console.log('fName data type:',typeof(fName));
